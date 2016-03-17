@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46A1308D182AD08EF2AAD886 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1533B0F80AEE2B1026AC479 /* libPods.a */; };
+		49C08D711C9B2DC00019DF36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C08D701C9B2DC00019DF36 /* AppDelegate.swift */; };
+		49C08D731C9B2DC00019DF36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C08D721C9B2DC00019DF36 /* ViewController.swift */; };
+		49C08D761C9B2DC00019DF36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C08D741C9B2DC00019DF36 /* Main.storyboard */; };
+		49C08D781C9B2DC00019DF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C08D771C9B2DC00019DF36 /* Assets.xcassets */; };
+		49C08D7B1C9B2DC00019DF36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C08D791C9B2DC00019DF36 /* LaunchScreen.storyboard */; };
+		49C08D861C9B2DC00019DF36 /* NimalGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C08D851C9B2DC00019DF36 /* NimalGramTests.swift */; };
+		49C08D911C9B2DC00019DF36 /* NimalGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C08D901C9B2DC00019DF36 /* NimalGramUITests.swift */; };
+		49C08D9F1C9B2E970019DF36 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 49C08D9E1C9B2E970019DF36 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49C08D821C9B2DC00019DF36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49C08D651C9B2DC00019DF36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C08D6C1C9B2DC00019DF36;
+			remoteInfo = NimalGram;
+		};
+		49C08D8D1C9B2DC00019DF36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49C08D651C9B2DC00019DF36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C08D6C1C9B2DC00019DF36;
+			remoteInfo = NimalGram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49C08D6D1C9B2DC00019DF36 /* NimalGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimalGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C08D701C9B2DC00019DF36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49C08D721C9B2DC00019DF36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49C08D751C9B2DC00019DF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49C08D771C9B2DC00019DF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49C08D7A1C9B2DC00019DF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49C08D7C1C9B2DC00019DF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C08D811C9B2DC00019DF36 /* NimalGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimalGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C08D851C9B2DC00019DF36 /* NimalGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimalGramTests.swift; sourceTree = "<group>"; };
+		49C08D871C9B2DC00019DF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C08D8C1C9B2DC00019DF36 /* NimalGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimalGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C08D901C9B2DC00019DF36 /* NimalGramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimalGramUITests.swift; sourceTree = "<group>"; };
+		49C08D921C9B2DC00019DF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C08D9E1C9B2E970019DF36 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		49C08DA01C9B316D0019DF36 /* NimalGram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NimalGram-Bridging-Header.h"; sourceTree = "<group>"; };
+		9908F6DBC44A30274D3FB9B1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B1533B0F80AEE2B1026AC479 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C7F8075B56B0F882D90F8B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49C08D6A1C9B2DC00019DF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A1308D182AD08EF2AAD886 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C08D7E1C9B2DC00019DF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C08D891C9B2DC00019DF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19BFE5F0120D20B00B613E1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4C7F8075B56B0F882D90F8B /* Pods.debug.xcconfig */,
+				9908F6DBC44A30274D3FB9B1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49C08D641C9B2DC00019DF36 = {
+			isa = PBXGroup;
+			children = (
+				49C08D9E1C9B2E970019DF36 /* Podfile */,
+				49C08D6F1C9B2DC00019DF36 /* NimalGram */,
+				49C08D841C9B2DC00019DF36 /* NimalGramTests */,
+				49C08D8F1C9B2DC00019DF36 /* NimalGramUITests */,
+				49C08D6E1C9B2DC00019DF36 /* Products */,
+				19BFE5F0120D20B00B613E1F /* Pods */,
+				F9678AAF7A41A48A0208209E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49C08D6E1C9B2DC00019DF36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49C08D6D1C9B2DC00019DF36 /* NimalGram.app */,
+				49C08D811C9B2DC00019DF36 /* NimalGramTests.xctest */,
+				49C08D8C1C9B2DC00019DF36 /* NimalGramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49C08D6F1C9B2DC00019DF36 /* NimalGram */ = {
+			isa = PBXGroup;
+			children = (
+				49C08D701C9B2DC00019DF36 /* AppDelegate.swift */,
+				49C08D721C9B2DC00019DF36 /* ViewController.swift */,
+				49C08D741C9B2DC00019DF36 /* Main.storyboard */,
+				49C08D771C9B2DC00019DF36 /* Assets.xcassets */,
+				49C08D791C9B2DC00019DF36 /* LaunchScreen.storyboard */,
+				49C08D7C1C9B2DC00019DF36 /* Info.plist */,
+				49C08DA01C9B316D0019DF36 /* NimalGram-Bridging-Header.h */,
+			);
+			path = NimalGram;
+			sourceTree = "<group>";
+		};
+		49C08D841C9B2DC00019DF36 /* NimalGramTests */ = {
+			isa = PBXGroup;
+			children = (
+				49C08D851C9B2DC00019DF36 /* NimalGramTests.swift */,
+				49C08D871C9B2DC00019DF36 /* Info.plist */,
+			);
+			path = NimalGramTests;
+			sourceTree = "<group>";
+		};
+		49C08D8F1C9B2DC00019DF36 /* NimalGramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49C08D901C9B2DC00019DF36 /* NimalGramUITests.swift */,
+				49C08D921C9B2DC00019DF36 /* Info.plist */,
+			);
+			path = NimalGramUITests;
+			sourceTree = "<group>";
+		};
+		F9678AAF7A41A48A0208209E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1533B0F80AEE2B1026AC479 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49C08D6C1C9B2DC00019DF36 /* NimalGram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C08D951C9B2DC00019DF36 /* Build configuration list for PBXNativeTarget "NimalGram" */;
+			buildPhases = (
+				52CD2606CF03E7285F73D542 /* Check Pods Manifest.lock */,
+				49C08D691C9B2DC00019DF36 /* Sources */,
+				49C08D6A1C9B2DC00019DF36 /* Frameworks */,
+				49C08D6B1C9B2DC00019DF36 /* Resources */,
+				AD1D9B19C39DB3858CB76811 /* Embed Pods Frameworks */,
+				798252F170D4C9CB88E1F50C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimalGram;
+			productName = NimalGram;
+			productReference = 49C08D6D1C9B2DC00019DF36 /* NimalGram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49C08D801C9B2DC00019DF36 /* NimalGramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C08D981C9B2DC00019DF36 /* Build configuration list for PBXNativeTarget "NimalGramTests" */;
+			buildPhases = (
+				49C08D7D1C9B2DC00019DF36 /* Sources */,
+				49C08D7E1C9B2DC00019DF36 /* Frameworks */,
+				49C08D7F1C9B2DC00019DF36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C08D831C9B2DC00019DF36 /* PBXTargetDependency */,
+			);
+			name = NimalGramTests;
+			productName = NimalGramTests;
+			productReference = 49C08D811C9B2DC00019DF36 /* NimalGramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49C08D8B1C9B2DC00019DF36 /* NimalGramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C08D9B1C9B2DC00019DF36 /* Build configuration list for PBXNativeTarget "NimalGramUITests" */;
+			buildPhases = (
+				49C08D881C9B2DC00019DF36 /* Sources */,
+				49C08D891C9B2DC00019DF36 /* Frameworks */,
+				49C08D8A1C9B2DC00019DF36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C08D8E1C9B2DC00019DF36 /* PBXTargetDependency */,
+			);
+			name = NimalGramUITests;
+			productName = NimalGramUITests;
+			productReference = 49C08D8C1C9B2DC00019DF36 /* NimalGramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49C08D651C9B2DC00019DF36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DerrickCorp;
+				TargetAttributes = {
+					49C08D6C1C9B2DC00019DF36 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					49C08D801C9B2DC00019DF36 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 49C08D6C1C9B2DC00019DF36;
+					};
+					49C08D8B1C9B2DC00019DF36 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 49C08D6C1C9B2DC00019DF36;
+					};
+				};
+			};
+			buildConfigurationList = 49C08D681C9B2DC00019DF36 /* Build configuration list for PBXProject "NimalGram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49C08D641C9B2DC00019DF36;
+			productRefGroup = 49C08D6E1C9B2DC00019DF36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49C08D6C1C9B2DC00019DF36 /* NimalGram */,
+				49C08D801C9B2DC00019DF36 /* NimalGramTests */,
+				49C08D8B1C9B2DC00019DF36 /* NimalGramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49C08D6B1C9B2DC00019DF36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C08D7B1C9B2DC00019DF36 /* LaunchScreen.storyboard in Resources */,
+				49C08D781C9B2DC00019DF36 /* Assets.xcassets in Resources */,
+				49C08D9F1C9B2E970019DF36 /* Podfile in Resources */,
+				49C08D761C9B2DC00019DF36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C08D7F1C9B2DC00019DF36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C08D8A1C9B2DC00019DF36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52CD2606CF03E7285F73D542 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		798252F170D4C9CB88E1F50C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD1D9B19C39DB3858CB76811 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49C08D691C9B2DC00019DF36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C08D731C9B2DC00019DF36 /* ViewController.swift in Sources */,
+				49C08D711C9B2DC00019DF36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C08D7D1C9B2DC00019DF36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C08D861C9B2DC00019DF36 /* NimalGramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C08D881C9B2DC00019DF36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C08D911C9B2DC00019DF36 /* NimalGramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49C08D831C9B2DC00019DF36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C08D6C1C9B2DC00019DF36 /* NimalGram */;
+			targetProxy = 49C08D821C9B2DC00019DF36 /* PBXContainerItemProxy */;
+		};
+		49C08D8E1C9B2DC00019DF36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C08D6C1C9B2DC00019DF36 /* NimalGram */;
+			targetProxy = 49C08D8D1C9B2DC00019DF36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49C08D741C9B2DC00019DF36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C08D751C9B2DC00019DF36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49C08D791C9B2DC00019DF36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C08D7A1C9B2DC00019DF36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49C08D931C9B2DC00019DF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49C08D941C9B2DC00019DF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49C08D961C9B2DC00019DF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C7F8075B56B0F882D90F8B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = NimalGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrickcorp.NimalGram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NimalGram/NimalGram-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49C08D971C9B2DC00019DF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9908F6DBC44A30274D3FB9B1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = NimalGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrickcorp.NimalGram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NimalGram/NimalGram-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		49C08D991C9B2DC00019DF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NimalGramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrickcorp.NimalGramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimalGram.app/NimalGram";
+			};
+			name = Debug;
+		};
+		49C08D9A1C9B2DC00019DF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NimalGramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrickcorp.NimalGramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimalGram.app/NimalGram";
+			};
+			name = Release;
+		};
+		49C08D9C1C9B2DC00019DF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NimalGramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrickcorp.NimalGramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NimalGram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		49C08D9D1C9B2DC00019DF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NimalGramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrickcorp.NimalGramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NimalGram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49C08D681C9B2DC00019DF36 /* Build configuration list for PBXProject "NimalGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C08D931C9B2DC00019DF36 /* Debug */,
+				49C08D941C9B2DC00019DF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C08D951C9B2DC00019DF36 /* Build configuration list for PBXNativeTarget "NimalGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C08D961C9B2DC00019DF36 /* Debug */,
+				49C08D971C9B2DC00019DF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C08D981C9B2DC00019DF36 /* Build configuration list for PBXNativeTarget "NimalGramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C08D991C9B2DC00019DF36 /* Debug */,
+				49C08D9A1C9B2DC00019DF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C08D9B1C9B2DC00019DF36 /* Build configuration list for PBXNativeTarget "NimalGramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C08D9C1C9B2DC00019DF36 /* Debug */,
+				49C08D9D1C9B2DC00019DF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49C08D651C9B2DC00019DF36 /* Project object */;
+}
