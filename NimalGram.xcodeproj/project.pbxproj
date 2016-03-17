@@ -16,6 +16,7 @@
 		49C08D861C9B2DC00019DF36 /* NimalGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C08D851C9B2DC00019DF36 /* NimalGramTests.swift */; };
 		49C08D911C9B2DC00019DF36 /* NimalGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C08D901C9B2DC00019DF36 /* NimalGramUITests.swift */; };
 		49C08D9F1C9B2E970019DF36 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 49C08D9E1C9B2E970019DF36 /* Podfile */; };
+		49C08DA41C9B34DE0019DF36 /* CatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C08DA31C9B34DE0019DF36 /* CatsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		49C08D921C9B2DC00019DF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49C08D9E1C9B2E970019DF36 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		49C08DA01C9B316D0019DF36 /* NimalGram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NimalGram-Bridging-Header.h"; sourceTree = "<group>"; };
+		49C08DA31C9B34DE0019DF36 /* CatsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatsTableViewController.swift; sourceTree = "<group>"; };
 		9908F6DBC44A30274D3FB9B1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B1533B0F80AEE2B1026AC479 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C7F8075B56B0F882D90F8B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				49C08D791C9B2DC00019DF36 /* LaunchScreen.storyboard */,
 				49C08D7C1C9B2DC00019DF36 /* Info.plist */,
 				49C08DA01C9B316D0019DF36 /* NimalGram-Bridging-Header.h */,
+				49C08DA31C9B34DE0019DF36 /* CatsTableViewController.swift */,
 			);
 			path = NimalGram;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C08D731C9B2DC00019DF36 /* ViewController.swift in Sources */,
+				49C08DA41C9B34DE0019DF36 /* CatsTableViewController.swift in Sources */,
 				49C08D711C9B2DC00019DF36 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
