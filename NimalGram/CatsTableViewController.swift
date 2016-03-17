@@ -11,9 +11,11 @@ import UIKit
 
 class CatsTableViewController: PFQueryTableViewController {
     
+    let cellIdentifier:String = "Cell"
     
     override init(style: UITableViewStyle, className: String?) {
-        super.init(style: <#T##UITableViewStyle#>, className: className)
+
+        super.init(style: style, className: className)
         
         self.pullToRefreshEnabled = true
         self.paginationEnabled = false
@@ -47,8 +49,6 @@ class CatsTableViewController: PFQueryTableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject?) -> PFTableViewCell? {
-        
-        let cellIdentifier:String = "Cell"
         
         var cell:PFTableViewCell? = tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as? PFTableViewCell
         
